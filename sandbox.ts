@@ -13,6 +13,9 @@ import { Student } from "./Models/studentModel.ts";
 const f = await readJson("student.json");
 let students: Student[] = f as Student[];
 console.log(students);
+
+/*this is IMPORTANT*/
+
 // const fruits = [
 //   { name: "Apple", quantity: "9" },
 //   { name: "Banana", quantity: "6" },
